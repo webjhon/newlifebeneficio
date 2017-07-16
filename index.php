@@ -12,7 +12,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-offset-4 col-md-4 col-md-offset-4">
-                    <img src='img/logonewlife.png' alt="logo" class='center-block' id='logo_newlife'/>
+                    <img src='img/logonewlife.png' alt="logo" class='center-block img-responsive' id='logo_newlife'/>
                 </div>
                 <div class="row">
                     <div class="col-md-offset-4 col-md-4 col-md-offset-4 alert-info" id="connect">
@@ -47,27 +47,29 @@
 
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="nome">Nome</label>
-                                <div class="col-md-8">
-                                    <input id="nome"  type="text" placeholder="Nome Completo" class="form-control input-md" required="">
+                                <div class="col-md-8 input-group">
+                                    <input id="nome"  type="text" placeholder="Nome Completo" class="form-control input-md" required/>
+                                    <span id="nomefail" class="input-group-addon alert-danger"> Erro! </span>
                                 </div>
                             </div>
 
                             <!-- Select Basic -->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="consultor" id="teste_form">Consultor</label>
-                                <div class="col-md-8">
+                                <div class="col-md-8 input-group">
                                     <select id="consultor" name="consultor" class="form-control">
-                                        <option value="0">Selecione</option>
+                                        <option value="">Selecione</option>
                                         <option value="angelica">Angélica Dias</option>
                                         <option value="maria">Mariá Marques</option>
                                     </select>
+                                    <span id="consultorfail" class="input-group-addon alert-danger"> Erro! </span>
                                 </div>
                             </div>
 
                             <!-- File Button --> 
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="curriculo">Currículo</label>
-                                <div class="col-md-4">
+                                <div class="col-md-4 input-group">
                                     <input id="curriculo" name="curriculo" class="input-file" type="file">
                                 </div>
                             </div>
@@ -75,9 +77,9 @@
                             <!-- Select Basic -->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="curso">Curso Desejado</label>
-                                <div class="col-md-8">
-                                    <select id="curso" name="cargo" class="form-control">
-                                        <option value="Nulo">Selecione</option>
+                                <div class="col-md-8 input-group">
+                                    <select id="curso" name="curso" class="form-control">
+                                        <option value="">Selecione</option>
                                         <option value="Operador de Telemarketing">Operador de Telemarketing</option>
                                         <option value="Operador de Caixa">Operador de Caixa</option>
                                         <option value="Agente de Vendas">Agente de Vendas</option>
@@ -88,27 +90,29 @@
                                         <option value="Auxiliar Contábil">Auxiliar Contábil</option>
                                         <option value="Atendente de Farmácia">Atendente de Farmácia</option>
                                     </select>
+                                    <span id="cursofail" class="input-group-addon alert-danger"> Erro! </span>
                                 </div>
                             </div>
 
                             <!-- Password input-->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="senha">Senha</label>
-                                <div class="col-md-8">
+                                <div class="col-md-8 input-group">
                                     <input id="senha" name="senha" type="password" placeholder="Senha Consultor" class="form-control input-md" required="">
+                                    <span id="senhafail" class="input-group-addon alert-danger"> Erro! </span>
                                 </div>
                             </div>
 
                             <!-- Button -->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="solicitar"></label>
-                                <div class="col-md-4">
+                                <div class="col-md-4 input-group">
                                     <input type="submit" id="solicitar" name="solicitar" class="btn btn-success" value="Solicitar">
                                 </div>
                             </div>
                         </fieldset>
                     </form>
-                    
+
                     <div id="sucesso">
                         <div class="row text-center">
                             <div class="col-sm-6 col-sm-offset-3">
@@ -116,8 +120,8 @@
                                 <img src="http://osmhotels.com//assets/check-true.jpg">
                                 <h3>Curso Auxiliar Veterinário</h3>
                                 <p style="font-size:20px;color:#5C5C5C;"> Parabéns
-                                <span id="nomejs"></span>! Você irá fazer parte do projeto MEU EMPREGO, 
-                                e através do incentivo de empresas parceiras, você terá acesso ao curso de <span id="cursojs"></span></p>
+                                    <span id="nomejs"></span>! Você irá fazer parte do projeto MEU EMPREGO, 
+                                    e através do incentivo de empresas parceiras, você terá acesso ao curso de <span id="cursojs"></span></p>
                                 <a href="" class="btn btn-success">     Log in      </a>
                                 <br><br>
                             </div>

@@ -1,3 +1,4 @@
+//Textos do Loader
 function load_story (){
             setTimeout(function () {
             $("#chama_loading").hide();
@@ -30,4 +31,7 @@ function load_story (){
             $("#sucesso").show();
         }, 20010);
 }
+
+
+
 
