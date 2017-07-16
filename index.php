@@ -74,19 +74,19 @@
 
                             <!-- Select Basic -->
                             <div class="form-group">
-                                <label class="col-md-4 control-label" for="cargo">Cargo Desejado</label>
+                                <label class="col-md-4 control-label" for="curso">Curso Desejado</label>
                                 <div class="col-md-8">
-                                    <select id="cargo" name="cargo" class="form-control">
-                                        <option value="Operadortelemarketing">Selecione</option>
-                                        <option value="operadorcaixa">Operador de Telemarketing</option>
-                                        <option value="vendedorinterno">Operador de Caixa</option>
-                                        <option value="vendedorexterno">Vendedor Interno</option>
-                                        <option value="caixahotel">Vendedor Externo</option>
-                                        <option value="secretaria">Caixa de Hotel</option>
-                                        <option value="auxiliarescritorio">Secretária (a)</option>
-                                        <option value="auxiliarrecursoshumanos">Auxiliar de Escritório</option>
-                                        <option value="auxiliarcontabilidade">Auxiliar de Recursos Humanos</option>
-                                        <option value="">Auxiliar de Contabilidade</option>
+                                    <select id="curso" name="cargo" class="form-control">
+                                        <option value="Nulo">Selecione</option>
+                                        <option value="Operador de Telemarketing">Operador de Telemarketing</option>
+                                        <option value="Operador de Caixa">Operador de Caixa</option>
+                                        <option value="Agente de Vendas">Agente de Vendas</option>
+                                        <option value="Auxiliar Veterinário">Auxiliar Veterinário</option>
+                                        <option value="Hotelaria e Turismo">Caixa de Hotel</option>
+                                        <option value="Gestão Empresarial">Gestão Empresarial</option>
+                                        <option value="Assistente de RH">Assistente de RH</option>
+                                        <option value="Auxiliar Contábil">Auxiliar Contábil</option>
+                                        <option value="Atendente de Farmácia">Atendente de Farmácia</option>
                                     </select>
                                 </div>
                             </div>
@@ -117,7 +117,7 @@
                                 <h3>Curso Auxiliar Veterinário</h3>
                                 <p style="font-size:20px;color:#5C5C5C;"> Parabéns
                                 <span id="nomejs"></span>! Você irá fazer parte do projeto MEU EMPREGO, 
-                                    e terá a oportunidade de se qualificar com incentivo das empresas parceiras</p>
+                                e através do incentivo de empresas parceiras, você terá acesso ao curso de <span id="cursojs"></span></p>
                                 <a href="" class="btn btn-success">     Log in      </a>
                                 <br><br>
                             </div>

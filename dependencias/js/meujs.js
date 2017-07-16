@@ -7,10 +7,13 @@ $(document).ready(function (e) {
         e.preventDefault();
         nome = $("#nome").val();
         password = $("#senha").val();
+        curso = $("#curso option:selected").val();
         $("#formulario").hide();
         $("#chama_loading").show();
         $("#nomejs").text(nome);
+        $("#cursojs").text(curso);
         load_story();
+        
     });
 
 
